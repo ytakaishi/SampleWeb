@@ -1,0 +1,56 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>InputServlet</title></head>
+<body>
+<p style="font-size:18px;color:red;">自己紹介ページ表示</p>
+<form method="post" action="/SampleWeb/input">
+<table border="0">
+ <tr>
+  <td>氏名</td>
+  <td> <input type="text" name="name"></td>
+ </tr>
+ <tr>
+   <td>年齢</td>
+   <td><select name="age" size="1">
+    <option value="20">20歳</option>
+    <option value="21">21歳</option>
+    <option value="22">22歳</option>
+    <option value="23">23歳</option>
+    <option value="24">24歳</option>
+    <option value="24">25歳</option>
+    <option value="24">26歳</option>
+    <option value="24">27歳</option>
+    <option value="24">28歳</option>
+   </select></td>
+  </tr>
+  <tr>
+   <td>恋人</td>
+   <td>
+  　<input type="radio" name="koibito" value="0" checked>いません
+    <input type="radio" name="koibito" value="1">います
+   </td>
+  </tr>
+  <tr>
+   <td>趣味</td>
+   <td>
+    <input type="checkbox" name="hobby" value="読書">読書
+    <input type="checkbox" name="hobby" value="スポーツ">スポーツ
+    <input type="checkbox" name="hobby" value="お笑い">お笑い
+   </td>
+  </tr>
+  <tr>
+   <td></td>
+   <td>
+    <input type="checkbox" name="hobby" value="映画">映画
+    <input type="checkbox" name="hobby" value="旅行">旅行
+    <input type="checkbox" name="hobby" value="ショッピング">ショッピング
+   </td>
+  </tr>
+  <tr>
+   <td colspan="2">
+    <input type="submit" name="submit" value="確認">
+   </td>
+  </tr>
+</table>
+</form></body></html>
